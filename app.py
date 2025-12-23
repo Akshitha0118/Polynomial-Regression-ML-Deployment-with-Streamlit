@@ -49,7 +49,7 @@ st.markdown('<div class="subtitle">Linear vs Polynomial Regression Visualization
 # ---------------- LOAD DATA ----------------
 @st.cache_data
 def load_data():
-    return pd.read_csv(r'emp_sal.csv)
+    return pd.read_csv('emp_sal.csv')
 
 dataset = load_data()
 
@@ -126,5 +126,6 @@ with col2:
 
 # ---------------- FOOTER ----------------
 st.markdown("<br><center>🚀 Built with Streamlit & Scikit-learn</center>", unsafe_allow_html=True)
+
 
 
